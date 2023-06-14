@@ -55,6 +55,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    background: #B1CCC5;
 }
 
 .main h2 {
@@ -136,7 +137,7 @@ section {
 
 .section {
     color: white;
-    background-color: #333333;
+    background-color: #16ba6a;
 }
 .content2 {
     display: flex;
@@ -248,68 +249,3 @@ section {
         font-size: 10px;
     }
 }
-
-
-nav {
-	display: flex;
-justify-content: space-around;
-	position: fixed;
-	width: 100%;
-	height: 50px;
-	background-color: #21242b;
-	border-radius: 8px;
-	font-size: 0;
-
-}
-nav a {
-	line-height: 50px;
-	height: 100%;
-	font-size: 15px;
-	display: inline-block;
-	position: relative;
-	z-index: 1;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	color: white;
-	cursor: pointer;
-}
-nav .animation {
-	position: absolute;
-	height: 100%;
-	top: 0;
-	z-index: 0;
-	transition: all .5s ease 0s;
-	border-radius: 8px;
-}
-a:nth-child(1) {
-	width: 100px;
-}
-a:nth-child(2) {
-	width: 110px;
-}
-a:nth-child(3) {
-	width: 100px;
-}
-a:nth-child(4) {
-	width: 160px;
-}
-a:nth-child(5) {
-	width: 120px;
-}
-.main button{
-    text-decoration: none;
-    border: none;
-    font-size: 25px;
-    background-color: #21242b;
-    color: #fff;
-    margin-left: 60px;
-    height: 60px;
-    padding: 10px;
-}
-.main button:hover{
-    background-color:#fff ;
-    color: #21242b;
-letter-spacing: 10px;
-transition: 1.5s;
-height: 80px;}
